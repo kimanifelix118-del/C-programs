@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+//program with user input information
+
+float height;
+double balance;
+long phone;
+
+printf("enter your height in metres:");
+scanf("%f", & height);
+printf("Enter your bank balance in ksh:");
+scanf("%lf", & balance);
+printf("Enter your phone number:");
+scanf("%ld", & phone);
+
+return 0;
+}
